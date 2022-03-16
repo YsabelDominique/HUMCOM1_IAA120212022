@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>	
+	<head>
+		<title>"Registration Form" Ysabel Dominique Mendoza</title>
+		<meta name="author" content="Ysabel Dominique Guieb Mendoza" />
+		<meta name="description" content="" />
+	</head>
+	
+	<body bgcolor="Gray">
+        <blockquote>
+                <h1 style="text-align: center; color: white; font-family:Verdana, Geneva, Tahoma, sans-serif">Sign up now!</h1>
+                <h3 style="color: white;">Fields marked (*) are required</h3>
+                <form>
+                    <fieldset style="color: white;">
+                        <legend><h3 style="color: white;">Your Details</h3></legend>
+                        <label>Name *</label>
+                        <input type="text" size="35" max="30" name="Name" placeholder="Fullname" required><br>
+                        <label>Email *</label>
+                        <input type="email" size="35" max="30" name="Email" placeholder="e.g johndoe@gmail.com" required><br>
+                        <label>Phone *</label>
+                        <input type="tel" size="35" max="" name="Phone" placeholder="Please enter an eleven digits" required><br>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset style="color: white; margin: auto;">
+                        <legend><h3>Delivery Address</h3></legend>
+                        <label>Address 1 *</label>
+                        <input type="text" size="35" max="" name="Address" placeholder="House/Apt Number and Street" required><br>
+                        <label>District/Barangay *</label>
+                        <input type="text" size="35" max="" name="District/Barangay" required><br>
+                        <label>City *</label>
+                        <select name="City" required>
+                            <option value="Baguio City">Baguio City</option>
+                            <option value="Batangas City">Batangas City</option>
+                            <option value="Cabanatuan City">Cabanatuan City</option>
+                            <option value="Caloocan City">Caloocan City</option>
+                            <option value="Laoag City">Laoag City</option>
+                            <option value="Legaspi City">Legaspi City</option>
+                            <option value="Olongapo City">Olongapo City</option>
+                            <option value="Pasay City">Pasay City</option>
+                            <option value="Tarlac City">Tarlac City</option>
+                            <option value="Quezon City">Quezon City</option>
+                          </select><br>
+                        <label>Postal Code *</label>
+                        <input type="tel" size="35" max="4" name="Postal Code" required><br>
+                        <label>Province *</label>
+                        <select name="Province" required>
+                            <option value="Bataan">Baguio City</option>
+                            <option value="Benguet">Batangas City</option>
+                            <option value="Bulacan">Cabanatuan City</option>
+                            <option value="Cavite">Caloocan City</option>
+                            <option value="Ilocos Norte">Laoag City</option>
+                            <option value="Ilocos Sur">Legaspi City</option>
+                            <option value="La Union">Olongapo City</option>
+                            <option value="Masbate">Pasay City</option>
+                            <option value="Palawan">Tarlac City</option>
+                            <option value="Pangasinan">Quezon City</option>
+                          </select>
+                    </fieldset>
+                </form>
+                <form>
+                    <fieldset style="color: white;">
+                        <legend><h3>Membership Information</h3></legend>
+                        <label>Username *</label>
+                        <input type="text" size="35" max="25" name="Username" placeholder="Atleast 8 alphanumeric characters" required><br>
+                        <label>Password *</label>
+                        <input type="password" size="35" max="25" name="Password" required><br>
+                        <label>Magazine Subscriptions</label><br>
+                        <input type="checkbox" name="Magazine Subscriptions" value="PCMagazine">PCMagazine<br>
+					    <input type="checkbox" name="Magazine Subscriptions" value="Wired">Wired<br>
+					    <input type="checkbox" name="Magazine Subscriptions" value="Computerworld">Computerworld<br>
+                        <input type="checkbox" name="Magazine Subscriptions" value="I don't subscribe">I don't subscribe<br>
+					    <input type="checkbox" name="Magazine Subscriptions" value="Other">Other
+                    </fieldset>
+                </form>
+                <input type="button" onclick="alert('Thank your for signing up!')" value="Sign Up">
+        </blockquote>
+    </body>
+</html>
