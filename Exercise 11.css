@@ -13,7 +13,7 @@ header {
     margin: 40px;
 }
 nav {
-    flow: left;
+    float: left;
     overflow: hidden;
     background-color: #f1e3a1;
     width:67%;
@@ -41,9 +41,13 @@ nav a {
     width: "";
     border: solid rgb(0, 0, 0);
     height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .second{
     content: "";
+    width: "";
+    margin-left: 50px;
 }
 div {
 
@@ -73,4 +77,8 @@ h1{
 .mov, .food, .game{
     float: inline-start;
     text-align: center;
+    margin-left: 50px;
+}
+.third{
+    margin-left: 50px;
 }
