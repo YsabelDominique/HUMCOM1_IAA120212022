@@ -1,0 +1,84 @@
+body{
+    margin: 50px;
+    border-style: solid;
+    border-color: black;
+    background-color: beige;
+    font-family: sans-serif
+}
+header {
+    text-align: center;
+    height: 250px;
+    width: 249px;
+    float: left;
+    margin: 40px;
+}
+nav {
+    float: left;
+    overflow: hidden;
+    background-color: #f1e3a1;
+    width:67%;
+    border-style: solid;
+    border-color: #000000;
+    margin: 40px;
+    display: inline-block;
+    text-align: center;
+  
+}
+nav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  nav a:hover {
+    background-color: white;
+    color: black;
+}
+.first{
+    width: "";
+    border: solid rgb(0, 0, 0);
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second{
+    content: "";
+    width: "";
+    margin-left: 50px;
+}
+div {
+
+        width: 90%;
+        padding: 30px;
+        resize: both;
+        clear: both;
+        border: solid rgb(0, 0, 0);
+        margin: 30px;
+}
+.s1, .s2, .s3{
+    text-align: justify;
+    font-family: sans-serif;
+}
+h2{
+    color: rgb(95, 55, 3);
+    font-family: sans-serif;
+}
+h4{
+    font-family: sans-serif
+}
+h1{
+    font-size: 150%;
+    color: rgb(95, 55, 3);
+    font-style: italic;
+}
+.mov, .food, .game{
+    float: inline-start;
+    text-align: center;
+    margin-left: 50px;
+}
+.third{
+    margin-left: 50px;
+}
